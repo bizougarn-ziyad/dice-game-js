@@ -115,3 +115,9 @@ img {
 .background {
     background: rgba(255, 255, 255, 0.764);
 }
+
+.info {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}

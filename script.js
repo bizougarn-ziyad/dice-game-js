@@ -8,7 +8,7 @@ let player = 1;
 const player1 = document.querySelector('.player1');
 const player2 = document.querySelector('.player2');
 player2.classList.remove('background');
-
+const title = document.querySelector('.info');
 const initScores = () => {
     document.querySelector('.score1').textContent = score1;
     document.querySelector('.score2').textContent = score2;
@@ -105,9 +105,11 @@ hold.addEventListener('click', () => {
         player2.classList.remove('background');
         player1.classList.add('background');
         message.textContent = (player === 1) ? 'Congratulation 🎉 Player 2 is the winner' : 'Congratulation 🎉 Player 1 is the winner';
+        title.textContent = '';
 
         setTimeout(() => {
             message.textContent = '';
+            title.textContent = 'First to 50 Wins 🏆';
         }, 5000);
     }
 
