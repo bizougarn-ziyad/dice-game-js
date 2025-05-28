@@ -1,0 +1,117 @@
+body {
+    background-image: url('background.png');
+    font-family: Poppins;
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 5px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn {
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 1.4em;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.newGame {
+    top: 50px;
+    left: 450px;
+}
+
+.rollDice {
+    top: 400px;
+    left: 450px;
+}
+
+.hold {
+    top: 470px;
+    left: 470px;
+}
+
+.player {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.566);
+    padding: 3em 4em;
+}
+
+.player1 {
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.player2 {
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.player h1 {
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
+
+.score1,
+.score2 {
+    font-size: 45px;
+    margin-top: 1em;
+    font-weight: bold;
+    color: rgb(205, 23, 53);
+}
+
+.current {
+    background: rgb(207, 86, 106);
+    width: 170px;
+    padding: 1em 2em;
+    font-size: 17px;
+    color: white;
+    margin: 7em auto;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.currentScore1,
+.currentScore2 {
+    display: block;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 190px;
+    left: 495px;
+}
+
+.message {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2em;
+    color: #ffffff;
+}
+
+.background {
+    background: rgba(255, 255, 255, 0.764);
+}
